@@ -16,6 +16,7 @@ button.addEventListener('click', () => {
     background.style.backgroundColor = Color;
     color.innerHTML = Color
     counter.innerHTML = count;
+    counter.style.color = 'white'
 })
 
 const randomColor = () =>{
